@@ -1,0 +1,65 @@
+[30-Mar-2016 20:24:09 UTC] PHP Fatal error:  Call to undefined function clean_string() in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 74
+[04-Apr-2016 15:01:23 UTC] PHP Parse error:  syntax error, unexpected ''subject'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 113
+[04-Apr-2016 15:01:30 UTC] PHP Parse error:  syntax error, unexpected ''subject'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 113
+[04-Apr-2016 15:07:28 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:07:30 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:08:39 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:08:46 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:13:31 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:13:33 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:13:36 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:14:17 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:14:19 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:14:23 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:14:40 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[04-Apr-2016 15:31:17 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 8
+[05-Apr-2016 16:19:05 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 6
+[05-Apr-2016 16:19:07 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 6
+[05-Apr-2016 16:19:09 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 6
+[05-Apr-2016 16:21:15 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 6
+[05-Apr-2016 16:21:17 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 6
+[05-Apr-2016 16:21:50 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 6
+[05-Apr-2016 16:21:56 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 6
+[05-Apr-2016 16:22:55 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Puli Factory is not available' in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php:32
+Stack trace:
+#0 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(79): Http\Discovery\ClassDiscovery::getPuliFactory()
+#1 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(99): Http\Discovery\ClassDiscovery::getPuliDiscovery()
+#2 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/HttpClientDiscovery.php(21): Http\Discovery\ClassDiscovery::findOneByType('Http\\Client\\Htt...')
+#3 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(270): Http\Discovery\HttpClientDiscovery::find()
+#4 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(87): Mailgun\Connection\RestClient->getHttpClient()
+#5 /home/samgrego in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php on line 32
+[05-Apr-2016 16:22:56 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Puli Factory is not available' in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php:32
+Stack trace:
+#0 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(79): Http\Discovery\ClassDiscovery::getPuliFactory()
+#1 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(99): Http\Discovery\ClassDiscovery::getPuliDiscovery()
+#2 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/HttpClientDiscovery.php(21): Http\Discovery\ClassDiscovery::findOneByType('Http\\Client\\Htt...')
+#3 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(270): Http\Discovery\HttpClientDiscovery::find()
+#4 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(87): Mailgun\Connection\RestClient->getHttpClient()
+#5 /home/samgrego in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php on line 32
+[05-Apr-2016 16:23:17 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Puli Factory is not available' in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php:32
+Stack trace:
+#0 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(79): Http\Discovery\ClassDiscovery::getPuliFactory()
+#1 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(99): Http\Discovery\ClassDiscovery::getPuliDiscovery()
+#2 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/HttpClientDiscovery.php(21): Http\Discovery\ClassDiscovery::findOneByType('Http\\Client\\Htt...')
+#3 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(270): Http\Discovery\HttpClientDiscovery::find()
+#4 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(87): Mailgun\Connection\RestClient->getHttpClient()
+#5 /home/samgrego in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php on line 32
+[05-Apr-2016 16:24:04 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Puli Factory is not available' in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php:32
+Stack trace:
+#0 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(79): Http\Discovery\ClassDiscovery::getPuliFactory()
+#1 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(99): Http\Discovery\ClassDiscovery::getPuliDiscovery()
+#2 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/HttpClientDiscovery.php(21): Http\Discovery\ClassDiscovery::findOneByType('Http\\Client\\Htt...')
+#3 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(270): Http\Discovery\HttpClientDiscovery::find()
+#4 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(87): Mailgun\Connection\RestClient->getHttpClient()
+#5 /home/samgrego in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php on line 32
+[05-Apr-2016 16:24:13 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Puli Factory is not available' in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php:32
+Stack trace:
+#0 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(79): Http\Discovery\ClassDiscovery::getPuliFactory()
+#1 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php(99): Http\Discovery\ClassDiscovery::getPuliDiscovery()
+#2 /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/HttpClientDiscovery.php(21): Http\Discovery\ClassDiscovery::findOneByType('Http\\Client\\Htt...')
+#3 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(270): Http\Discovery\HttpClientDiscovery::find()
+#4 /home/samgrego/public_html/Sites/waspplumbing/vendor/mailgun/mailgun-php/src/Mailgun/Connection/RestClient.php(87): Mailgun\Connection\RestClient->getHttpClient()
+#5 /home/samgrego in /home/samgrego/public_html/Sites/waspplumbing/vendor/php-http/discovery/src/ClassDiscovery.php on line 32
+[05-Apr-2016 16:52:20 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 5
+[05-Apr-2016 16:53:47 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 5
+[05-Apr-2016 17:08:47 UTC] PHP Parse error:  syntax error, unexpected 'sleep' (T_STRING), expecting ',' or ';' in /home/samgrego/public_html/Sites/waspplumbing/email.php on line 99
