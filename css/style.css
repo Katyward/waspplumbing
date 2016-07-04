@@ -34,7 +34,7 @@ h3{
 
 .header-wrap {
 	background: #FCB900;
-	color: black;
+	color: white;
 }
 
 .header-wrap .navbar-default {
@@ -45,6 +45,17 @@ h3{
 	margin: 10px 0;
 }
 
+.number{
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+.header-number{
+	text-align: right;
+	font-size: 13px;
+	padding-right: 29px;
+}
 .navigation{
 	position: absolute;
 	bottom: 0;
@@ -55,17 +66,18 @@ h3{
 
 .header {
 	position: relative;
+	border-bottom: 2px solid white;
+	width: 100%;
 }
 
 .nav a{
-	color: black;
-	border:1px solid transparent;
+	color: white;
 	margin-bottom: 10px;
 }
 
 .nav>li>a:hover {
 	background-color: rgba(255,255,255,.1);
-	border-color: black;
+	border-color: white;
 	}
 
 .hero {
@@ -96,6 +108,7 @@ h3{
     text-align: center;
     padding: 0 10px;
     font-weight: bold;
+    text-align: center;
 }
 
 .hero-list{
@@ -153,7 +166,17 @@ h3{
 .btn:active{
 	background: #F7F7F7;
 	color: #6E6E6E;
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all .02s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.8s;
 }
+
 
 .btn:visited{
 	border: none;
@@ -187,6 +210,17 @@ outline: none;
     margin-top: 20px;
     }
 
+.icons:hover img{
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all .02s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.9s;
+}
 .service-text{
 	color: #6E6E6E;
 	text-align: center;
@@ -331,6 +365,27 @@ outline: none;
 	background-image: url('images/footer.jpg');
 	max-width: 100%;
 	background-size: cover;
+	position: relative;
+
+}
+
+.footer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.35) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.35) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,-1.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#59000000',GradientType=0 );
+}
+
+
+
+.container{
+	position: relative;
 }
 
 .footer a{
@@ -351,6 +406,7 @@ outline: none;
     .col-sm-10 {width: 83.33%;}
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
+
 
     .our-story
     {
@@ -419,14 +475,17 @@ outline: none;
 	.navbar-collapse{
 		position:relative;
 		z-index: 2;
-		background:#FCB900;
-		color:white;
+		background:white;
+		color:#FCB900;
 		padding-top: 5px;
 		margin-top: 15px;
 		margin-right: -30px;
 		text-align: right;
 	}
 
+.navbar-collapse a{
+		color:#6E6E6E;
+}		
 	.navbar-default .navbar-toggle
 	{
 		border-color:white;
@@ -446,6 +505,10 @@ outline: none;
 	.navbar-default .navbar-toggle:hover .icon-bar
 	{
 		background-color: #6E6E6E;
+	}
+
+	.header-number{
+		display:none;
 	}
 
 	.hero{
