@@ -32,11 +32,6 @@ h3{
 	cursor: text;
 }
 
-.header-wrap {
-	background: #FCB900;
-	color: white;
-}
-
 .header-wrap .navbar-default {
 	background: none;
 }
@@ -55,6 +50,7 @@ h3{
 	text-align: right;
 	font-size: 13px;
 	padding-right: 29px;
+	color: #FFFFFF;
 }
 .navigation{
 	position: absolute;
@@ -69,6 +65,8 @@ h3{
 	border-bottom: 2px solid white;
 	width: 100%;
 }
+
+
 
 .nav a{
 	color: white;
@@ -93,7 +91,8 @@ h3{
 }
 
 .hero-subtext{
-	font-size: 16px;
+	font-size: 20px;
+	vertical-align: middle;
 
 }
 .hero a:hover{
@@ -102,10 +101,8 @@ h3{
 
 .hero-text{
 	margin: 0 auto;
-	margin-top: 20px;
 	color: white;
 	font-size: 38px;
-    text-align: center;
     padding: 0 10px;
     font-weight: bold;
     text-align: center;
@@ -115,7 +112,7 @@ h3{
 	  display:inline-block;
 	  border-left: 1px solid white;
 	  padding-left: 10px;
-	  font-size: 16px;
+	  
 }
 
 .list{
@@ -162,22 +159,6 @@ h3{
 	font-weight: 700;
 }
 
-.btn:hover,
-.btn:active{
-	background: #F7F7F7;
-	color: #6E6E6E;
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-ms--transform: rotate(360deg);
-	transform: rotate(360deg);
-	-webkit-transition: all .02s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	transition: all 0.8s;
-}
-
-
 .btn:visited{
 	border: none;
 }
@@ -210,21 +191,27 @@ outline: none;
     margin-top: 20px;
     }
 
-.icons:hover img{
-	-moz-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	-ms--transform: rotate(360deg);
-	transform: rotate(360deg);
-	-webkit-transition: all .02s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	transition: all 0.9s;
-}
 .service-text{
 	color: #6E6E6E;
 	text-align: center;
 }
+
+.spin{
+	-webkit-transition: all .02s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.8s;
+
+}
+.spin:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+   
+}
+
 .js-show-hide .js-show-hide-hidden {
 	display: none;
 }
@@ -436,6 +423,7 @@ outline: none;
 		padding: 0px;
 	}
 
+
 	.testimonials-img
 	{
 		display: inline-block;
@@ -515,6 +503,10 @@ outline: none;
 	background-position: center bottom;
 	}
 
+	.hero-list{
+	 font-size:16px;
+	 }
+	 
 	.our-story{
 		padding: 10px;
 		font-size: 16px;
