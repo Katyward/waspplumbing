@@ -16,7 +16,7 @@ h2{
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	text-align: left;
+	
 }
 
 h3{
@@ -65,8 +65,6 @@ h3{
 	border-bottom: 2px solid white;
 	width: 100%;
 }
-
-
 
 .nav a{
 	color: white;
@@ -130,7 +128,6 @@ h3{
 	padding: 60px 0;
 }
 
-
 .services{
 	color: #6E6E6E;
 	padding-top: 60px;
@@ -144,9 +141,9 @@ h3{
 	text-align: center;
 }
 
-.service-text{
+.service-text-header{
 	color: #6E6E6E;
-	text-align: left;
+	text-align: center;
 	font-style: bold;
 	margin-bottom: 20px;
 
@@ -283,8 +280,7 @@ outline: none;
 }
 .carousel{
 	padding: 0 100px;
-	min-height: 400px;
-}
+	}
 
 .carousel-indicators li{
 	border:1px solid #6E6E6E;
@@ -296,15 +292,6 @@ outline: none;
 
 }
 
-.carousel-control.right,
-.carousel-control.left{
-	background-image: none;
-}
-
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right{
-	color: #6E6E6E;
-}
 .testimonials{
 	padding-bottom: 60px;
 	padding-top: 60px;
@@ -412,7 +399,11 @@ outline: none;
 	.flex-container{
 		min-height: 0px;
 	}
-
+	
+	.service-text{
+	text-align: left;
+	}
+	
 	.testimonials{
 		padding-bottom: 10px;
 	}
@@ -434,8 +425,10 @@ outline: none;
 
 	.hero-subtext{
 	font-size: 16px;
+	}
 
-}
+	
+
 @media only screen and (max-width: 768px) {
     /* For mobile: */
 /*    .col-xs-1 {width: 8.33%;}
@@ -520,6 +513,10 @@ outline: none;
 		padding: 20px 10px 0px 10px;
 	}
 
+	.service-text{
+	text-align: left;
+	}
+
 	.btn-link{
 		padding-bottom: 40px;
 	}
@@ -549,6 +546,5 @@ outline: none;
 	padding: 20px 30px;
 	}
 	
-
-
+	
 }
