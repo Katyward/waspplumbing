@@ -21,6 +21,7 @@ h2{
 h3{
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+
 }
 
 .descrete-link,
@@ -123,14 +124,23 @@ h3{
 	padding-left: 0;
 }
 
+.ribbon {
+  background-color: red;
+  color: white;
+  width: 100%;
+  position: static;
+  text-align: center;
+
+}
+
 .banner{
-	padding: 60px 0;
+   padding: 30px 0;
 }
 
 .services{
 	color: #6E6E6E;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	text-align: center;
 }
 
@@ -188,8 +198,26 @@ outline: none;
     }
 
 .service-text{
-	color: #6E6E6E;
+	color: #999;
 	text-align: center;
+}
+
+.list-bullet {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	padding-top: 15px;
+	border-top: 1px solid #CCC;
+}
+
+.list-bullet > li {
+    color: #6E6E6E;
+    margin-bottom: 7px;	
+}
+
+.list-bullet > li::before {
+	content: "○";
 }
 
 .spin{
@@ -240,11 +268,15 @@ outline: none;
 
 
 .story-tiles{
-	padding:80px 60px;
+	padding: 100px 60px;
 }
 
-.story-tiles-images
-{
+.story-tiles-images{
+	max-width: 100%;
+	border: 3px solid #FCB900;
+}
+
+.story-tiles-link{
 	padding: 5px;
 }
 
@@ -259,7 +291,7 @@ outline: none;
 }
 
 .history{
-	background-color: #6E6E6E;
+	background-color: #333;
 }
 
 .contact{
@@ -271,7 +303,7 @@ outline: none;
 
 .contact-shade{
 	background:rgba(0,0,0,.5);
-	padding: 60px 0;
+	padding: 30px 0px;
 }
 
 .yellow-text a{
@@ -292,8 +324,8 @@ outline: none;
 }
 
 .testimonials{
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding: 30px 0px;
+
 }
 
 .testimonial-image{
@@ -301,6 +333,7 @@ outline: none;
 	margin-bottom: 60px;
 	padding-left: 125px;
 	padding-top: 60px;
+	display: none;
 
 }
 
@@ -311,8 +344,11 @@ outline: none;
 
 .form-control{
 	font-size: 18px; 
+	border-radius: 0;
+	text-align: left;
+	margin-bottom: 15px;
 }
-
+.
 .message{
 	font-family: courier;
 	padding-bottom: 10px;
@@ -366,7 +402,7 @@ outline: none;
 }
 
 @media only screen and (max-width: 992px) {
-    /* For tablet: */
+    /* For tablet:
     .col-sm-1 {width: 8.33%;}
     .col-sm-2 {width: 16.66%;}
     .col-sm-3 {width: 25%;}
@@ -379,6 +415,7 @@ outline: none;
     .col-sm-10 {width: 83.33%;}
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
+    */
 
 
     .our-story
@@ -388,7 +425,9 @@ outline: none;
 
     .story-tiles
     {
-    	padding: 20px 0 60px 0;
+    	max-width: 500px;
+    	margin:10px auto;
+    	padding:0 0 10px 0;
     }
 
     .btn-link{
@@ -400,7 +439,7 @@ outline: none;
 	}
 	
 	.service-text{
-	text-align: left;
+		text-align: left;
 	}
 	
 	.testimonials{
@@ -414,12 +453,13 @@ outline: none;
 	}
 
 
+
 	.testimonials-img
 	{
 		display: inline-block;
 	}
 	.form-control{
-	text-align: left;
+
 	}
 
 	.hero-subtext{
@@ -494,12 +534,22 @@ outline: none;
 		display:none;
 	}
 
+	.banner{
+		padding: 0px;
+	}
+
 	.hero{
 	background-position: center bottom;
 	}
 
-	.hero-list{
-	 font-size:16px;
+
+	 .hero-text{
+	 	 margin-top: 15px;
+	 }
+
+	 .ribbon{
+	 	font-size: 20px;
+	 	padding: 10px;
 	 }
 	 
 	.our-story{
@@ -508,7 +558,7 @@ outline: none;
 	}
 
 	.story-tiles{
-		padding:0px 10px 20px 10px;
+		padding:0px 35px 20px 35px;
 	}
 
 	.services{
@@ -543,10 +593,20 @@ outline: none;
 		width: 100%;
 	}
 
+	.white-text{
+		padding-bottom: 10px;
+	}
+
 	.contact-form .container{
 	width:auto;
 	padding: 20px 30px;
 	}
 	
-	
+	.form-control{
+		margin-top: 10px;
+	}
+
+	.footer{
+		padding-bottom: 30px;
+	}
 }
