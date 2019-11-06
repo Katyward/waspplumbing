@@ -26,5 +26,7 @@ $(function(){
 		window.scroll(0,0);
 		$("a[href='"+hash+"']").click();
 	}
+
+
 });
 		
